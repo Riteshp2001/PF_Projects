@@ -10,16 +10,16 @@ let endtxt = end.querySelector("h1");
 const controller = new ScrollMagic.Controller();
 
 let scene = new ScrollMagic.Scene({
-  duration: 45000,
+  duration: 20000,
   triggerElement: start,
   triggerHook: 0,
 })
   .setPin(start)
   .addTo(controller);
 
-let txtmagic= TweenMax.fromTo(text,9,{opacity:1},{opacity:0});
+let txtmagic= TweenMax.fromTo(text,4,{opacity:1},{opacity:0});
 let Txtscene = new ScrollMagic.Scene({
-  duration: 9000,
+  duration: 4000,
   triggerElement: start,
   triggerHook: 0,
 })
