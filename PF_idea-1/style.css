@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 24, 99);
+  font-family: sans-serif;
+}
+
+.container {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+.container h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 63px;
+  color: white;
+  text-shadow: 0 0 5px whitesmoke;
+  opacity: 0.8;
+}
+
+.container video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.last_container{
+    height: 120vh;
+}
+
+.last_container h1{
+    font-size: 80px;
+    padding-top: 300px;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(32, 32, 32);
+}
